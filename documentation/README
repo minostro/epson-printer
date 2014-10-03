@@ -1,7 +1,7 @@
 Hola!
 
 Para configurar la impresora debes instalar el driver de libusb-win32
-[1]. Cuando descargues el proyecto y lo descomprimas, encontrar‡s una
+[1]. Cuando descargues el proyecto y lo descomprimas, encontrarâ€¡s una
 carpeta bin.  En esta carpeta, existe una app que realiza un scaneo de
 los puertos usb y te genera el correspondiente archivo .inf para
 instalarlo como controlador.  Entonces, tienes que correr esta app con
@@ -15,10 +15,10 @@ configurar la impresora desde nuestro cliente.
 Para verificar que la impresora haya quedado bien instalada se debe
 seguir los siguientes pasos:
 
-1.- Instalar Python2.7 o superior
-2.- Modificar path: C:\Python2.7
-3.- Instalar easy_install
-4.- Modificar path: C:\Python2.7\Scripts
+1.- Instalar Python2.7 o superior [2]
+2.- Modificar path: C:\Python27
+3.- Instalar easy_install [3]
+4.- Modificar path: C:\Python27\Scripts
 5.- easy_install pip
 6.- pip install pyusb
 7.- ejecutar main.py del proyecto printer en la consola, con la impresora encendida y con papel
@@ -26,3 +26,5 @@ seguir los siguientes pasos:
 
 
 [1] http://sourceforge.net/apps/trac/libusb-win32/wiki
+[2] https://www.python.org/ftp/python/2.7.8/python-2.7.8.msi
+[3] http://peak.telecommunity.com/dist/ez_setup.py
