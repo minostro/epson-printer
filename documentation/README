@@ -20,7 +20,7 @@ seguir los siguientes pasos:
 3.- Instalar easy_install [3]
 4.- Modificar path: C:\Python27\Scripts
 5.- easy_install pip
-6.- pip install pyusb
+6.- pip install pyusb==1.0.0b1
 7.- ejecutar main.py del proyecto printer en la consola, con la impresora encendida y con papel
 
 
